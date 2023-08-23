@@ -1,0 +1,97 @@
+/*******document********/
+html {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: deepskyblue;
+}
+
+header .box1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header .box1 div {
+  padding: 10px;
+}
+header .box1 img {
+  /* Rahmendichte */
+  border-width: 3px;
+  /* Rahmenfarbe */
+  border-color: tomato;
+  /* Rahmenstil */
+  border-style: solid;
+  /* Abstand */
+  margin: 10px;
+}
+header .box1 starseite {
+  border: tomato solid 5px;
+}
+header .box2 {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .box2 input {
+  width: 90%;
+}
+/***++++++main********/
+
+main .box3 {
+  background-color: #b8860b;
+  padding: 5px;
+}
+main .box4 {
+  background-color: yellowgreen;
+  padding: 5px;
+}
+main .box5 {
+  background-color: slategrey;
+  padding: 5px;
+}
+main .box6 {
+  background-color: thistle;
+  padding: 5px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Fußzeile
+ * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: chartreuse;
+  padding: 5px;
+}
+footer img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+footer .box7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer .box8 table {
+  background-color: violet;
+  padding: 5px;
+  border: royalblue 4px solid;
+}
+footer .box9 {
+  background-color: sienna;
+  padding: 5px;
+  border: royalblue 4px solid;
+}

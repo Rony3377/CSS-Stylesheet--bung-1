@@ -1,0 +1,41 @@
+@media screen and (min-width: 800px) {
+  /* main */
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  main div.box3 {
+    background-color: aqua;
+    padding: 2px;
+    grid-column-start: 2;
+  }
+
+  main .box4 {
+    background-color: burlywood;
+    padding: 2px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  main .box5 {
+    background-color: darkolivegreen;
+    padding: 2px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
+  main .box5 {
+    background-color: darkviolet;
+    padding: 2px;
+  }
+  main .box6 {
+    background-color: deeppink;
+    padding: 2px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  img {
+    width: 100px;
+  }
+}

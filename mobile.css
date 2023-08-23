@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  /*****main*******/
+  main {
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main img {
+    width: 150px;
+  }
+  main .box3 {
+    background-color: dimgray;
+    padding: 4px;
+    border: floralwhite 5px solid;
+  }
+  main .box4 {
+    background-color: greenyellow;
+    padding: 4px;
+    border: hotpink 5px solid;
+  }
+  main .box5 {
+    background-color: lightskyblue;
+    padding: 4px;
+    border: mediumblue 5px solid;
+  }
+}
